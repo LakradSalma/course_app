@@ -1,16 +1,20 @@
-# course_app
+# Application de Courses (Frontend: Flutter, Backend: Flask)
 
-A new Flutter project.
+## Description
+Cette application de courses permet aux utilisateurs de créer et de suivre leur liste de courses, avec un front-end développé en Flutter et un back-end utilisant Flask sur une machine virtuelle (VM). L'application permet d'ajouter, modifier, et supprimer des articles de la liste, ainsi que de synchroniser les données via une API RESTful.
 
-## Getting Started
+## Technologies Utilisées
+- **Frontend** : Flutter
+- **Backend** : Flask
 
-This project is a starting point for a Flutter application.
+- **Machine virtuelle** : Déployé sur une machine virtuelle (VM) Ubuntu
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Prérequis
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Flutter** : Assurez-vous d'avoir Flutter installé sur votre machine. Vous pouvez suivre les instructions officielles pour l'installation de Flutter [ici](https://flutter.dev/docs/get-started/install).
+  
+- **Python** : Vous devez avoir Python 3.x installé sur votre machine. Vous pouvez le télécharger à partir de [python.org](https://www.python.org/downloads/).
+
+- **Machine virtuelle Ubuntu** : L'application Flask doit être déployée sur une VM Ubuntu. Assurez-vous que votre VM est configurée avec un serveur web pour héberger l'API Flask.
